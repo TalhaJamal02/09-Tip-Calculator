@@ -44,7 +44,7 @@ function TipCalculator() {
           <CardTitle>Tip Calculator</CardTitle>
           <CardDescription>
             Enter the bill amount and tip percentage to calculate the tip and
-            total.
+            total amount.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
