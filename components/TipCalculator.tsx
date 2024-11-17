@@ -76,7 +76,7 @@ function TipCalculator() {
         <CardFooter className="grid gap-2">
           <div className="flex items-center justify-between">
             <span className=' font-medium'>Tip Amount:</span>
-            <span className="font-bold text-gray-700">${tipAmount.toFixed(2)}</span>
+            <span className="font-bold text-gray-600">${tipAmount.toFixed(2)}</span>
           </div>
           <div className="flex items-center justify-between">
             <span className=' font-medium'>Total Amount:</span>
