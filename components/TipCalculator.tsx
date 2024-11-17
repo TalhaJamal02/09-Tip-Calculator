@@ -56,6 +56,7 @@ function TipCalculator() {
               placeholder="Enter bill amount"
               value={billAmount !== null ? billAmount : ""}
               onChange={handleBillAmountChange}
+              required
             />
           </div>
           <div className="grid gap-2">
@@ -66,6 +67,7 @@ function TipCalculator() {
               placeholder="Enter tip percentage"
               value={tipPercentage !== null ? tipPercentage : ""}
               onChange={handleTipPercentageChange}
+              required
             />
           </div>
           <Button onClick={calculateTip}>Calculate</Button>
